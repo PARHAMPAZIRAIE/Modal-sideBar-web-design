@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      height: 3000px;
+    }
+
+    .profilePic {
+      padding-top: 30px;
+      padding-right: 15px;
+      width: 75px;
+      height: 120px;
+    }
+
+    .topicHeader {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 500px;
+      align-items: center;
+      border-style: solid;
+      border: none;
+    }
+
+    .button {
+      width: 40px;
+      height: 40px;
+      font-weight: 700;
+      background-color: transparent;
+      color: black;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .close-button {
+      background-color: transparent;
+      border: none;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <!--
+    // i leave my garbage code in here...
+  <div style="position:fixed; right:20px;top:0px;bottom: 20px;width:100px;background-color: green;">
+    right sidebar
+  </div>
+
+  <div style="position:fixed;right:0px;top:0px;bottom: 0px; background-color: rgba(0,0,0,0.8); display:flex; justify-content: center;align-items: center;">
+    <div style="width: 60px;height: 60px;">
+      hi
+    </div>
+  </div>
+  -->
+  <!--
+  <div style="position:fixed; right:0px;top:0px;bottom: 0px;left:0px; background-color: rgba(0,0,0,0.8); display:flex; justify-content: center;align-items: center;">
+    <div style="position:fixed; right:20px;top:0px;bottom: 20px;width:100px;background-color: green;">
+      right sidebar
+    </div>
+  -->
+  <!--
+  <div style="position:fixed; right:20px;top:0px;bottom: 20px;width:100px;background-color: green;">
+    right sidebar
+    <div style="position:fixed; right:0px;top:0px;bottom: 0px;left:0px; background-color: rgba(0,0,0,0.2); display:flex; justify-content: center;align-items: center;">
+      <div style="width: 360px;height: 100px;background-color: white; border-radius: 25px; padding: 20px;display: flex;flex-direction: column;">
+        <div><b>Modal Title</b></div>
+        <div>this is a modal.</div>
+        <div><button>close</button></div>
+      </div>
+    </div>
+  </div>
+  -->
+
+  <div style="position:fixed; left:0px;top:0px;bottom: 10px;width:250px;background-color: lightgray; display:flex; align-items: center;flex-direction: column; justify-content: baseline;flex-shrink: 0;">
+    <div class="profilePic">
+      <img style="width:100px;height:100px;object-fit:cover;border-radius:100%;border: 1px solid black;" src="DSC_5866.JPG">
+    </div>
+    <div class="profilePic">
+      <img style="width:100px;height:100px;object-fit:cover;border-radius:100%;border: 1px solid black;" src="DSC_5867.JPG">
+    </div>
+    <div class="profilePic">
+      <img style="width:100px;height:100px;object-fit:cover;border-radius:100%;border: 1px solid black;" src="DSC_5887.JPG">
+    </div>
+
+    <div style="position:fixed; left:250px;top:0px;bottom: 10px;width:500px;background-color: gray; display:flex; align-items: start;flex-direction: column; justify-content:baseline;flex-shrink: 0;padding:20px;">
+      <div class="topicHeader">
+        <div><p>INFO</p></div>
+        <div><button class="button">+</button></div>
+      </div>
+      <div class="topic">
+        <p># new-apps</p>
+      </div>
+      <div class="topic">
+        <p># updates</p>
+      </div>
+      <div class="topic">
+        <p># faq</p>
+      </div>
+    </div>
+
+    <div style="position:fixed; right:0px;top:0px;bottom: 0px;left:0px; background-color: rgba(0,0,0,0.2); display:flex; justify-content: center;align-items: center;">
+      <div style="width: 360px;height: 100px;background-color: white; border-radius: 25px; padding: 20px;display: flex;flex-direction: column;">
+        <div><b>Modal Title</b></div>
+        <div>this is a modal.</div>
+        <div style="margin-top:auto"><button class="close-button">close</button></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
